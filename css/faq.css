@@ -1,0 +1,73 @@
+/***********************************************/
+/***************** Accordion ********************/
+/***********************************************/
+@import url('https://fonts.googleapis.com/css?family=Tajawal');
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+section{
+	padding: 60px 0;
+}
+h1.faqfaq{
+    margin-bottom: 1.25rem;
+    color: black;
+    font-size: 20px;
+    color: #34073a;
+    padding-top: 145px;
+}
+#accordion-style-1 h1,
+#accordion-style-1 a{
+    
+    text-align: center;
+}
+#accordion-style-1 .btn-link {
+    font-weight: 400;
+color: purple;
+    background-color: transparent;
+    text-decoration: none !important;
+    font-size: 16px;
+    font-weight: bold;
+	padding-left: 25px;
+}
+
+#accordion-style-1 .card-body {
+    border-top: 2px solid rgba(81, 10, 98, 0.125)
+}
+
+#accordion-style-1 .card-header .btn.collapsed .fa.main{
+	display:none;
+}
+h5.faq{
+    font-weight: 400;
+    color: purple;
+    background-color: transparent;
+    text-decoration: none !important;
+    font-size: 16px;
+    font-weight: bold;
+
+font: normal normal normal 17px/1.4em proxima-n-w01-reg,sans-serif;
+font-size: 18px;
+line-height: 1.2em;
+font: normal normal normal 18px/22px proxima-n-w01-reg,sans-serif;
+}
+
+p.faq{
+    margin-left: 60px;
+    color: rgba(10,28,63,1);
+font: normal normal normal 14px/1.4em ;
+line-height: 1.5em;
+font-size: 16px;
+margin-top: 30px;
+}
+#accordion-style-1 .card-header .btn .fa.main{
+	background: rgba(81, 10, 98, 0.125);
+    padding: 13px 11px;
+    color: #ffffff;
+    width: 35px;
+    height: 41px;
+    position: absolute;
+    left: -1px;
+    top: 10px;
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+	display:block;
+}

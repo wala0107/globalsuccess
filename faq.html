@@ -23,19 +23,32 @@
     <title>Global Success</title>
 
     <!-- Styles -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css" />
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600,700" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700,700i" rel="stylesheet">
     <link href="css/bootstrap.css" rel="stylesheet">
     <link href="css/fontawesome-all.css" rel="stylesheet">
     <link href="css/swiper.css" rel="stylesheet">
     <link href="css/magnific-popup.css" rel="stylesheet">
-    <link href="./css/styles.css" rel="stylesheet">
-
+    <link href="css/styles.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/faq.css">
     <!-- Favicon  -->
-    <link rel="icon" href="images/globallogo.jpg">
-
+    <link rel="icon" href="images/logo.jpg>
     <style>
+        * {
+            box-sizing: border-box;
+        }
 
+        .item {
+            width: 200px;
+            height: 200px;
+            margin: 50px auto;
+            padding-top: 75px;
+            background: #ccc;
+            text-align: center;
+            color: #FFF;
+            font-size: 3em;
+        }
     </style>
 </head>
 
@@ -53,12 +66,12 @@
 
 
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-md navbar-dark navbar-custom fixed-top">
+    <nav class="navbar navbar-expand-md navbar-dark navbar-custom fixed-top bg-dark ">
         <!-- Text Logo - Use this if you don't have a graphic logo -->
         <!-- <a class="navbar-brand logo-text page-scroll" href="index.html">Leno</a> -->
 
         <!-- Image Logo -->
-        <a class="navbar-brand logo-image" href="index.html"><img src="images/logoglobalsuccess.png" alt="alternative"
+        <a class="navbar-brand logo-image" href="index.html"><img src="images/logo.jpg" alt="alternative"
                 class="ml-5"></a>
 
         <!-- Mobile Menu Toggle Button -->
@@ -69,8 +82,8 @@
         </button>
         <!-- end of mobile menu toggle button -->
 
-        <div class="collapse navbar-collapse" id="navbarsExampleDefault">
-            <ul class="navbar-nav ml-auto">
+        <div class="collapse navbar-collapse " id="navbarsExampleDefault">
+            <ul class="navbar-nav ml-auto  ">
                 <li class="nav-item">
                     <a class="nav-link page-scroll" href="index.html">ACCEUIL <span class="sr-only">(current)</span></a>
                 </li>
@@ -81,19 +94,21 @@
                 <li class="nav-item">
                     <a class="nav-link page-scroll" href="./evenement.html">EVENEMENTS</a>
                 </li>
+                <li class="nav-item">
+                    <a class="nav-link page-scroll" href="./outil.html">OUTILS</a>
+                </li>
 
                 <li class="nav-item">
-                    <a class="nav-link page-scroll" href="outil.html">OUTILS</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link page-scroll" href="faq.html">FAQ</a>
+                    <a class="nav-link page-scroll" href="./faq.html">FAQ</a>
                 </li>
 
                 <!-- Dropdown Menu -->
 
                 <!-- end of dropdown menu -->
 
-
+                <li class="nav-item">
+                    <a class="nav-link page-scroll" href="#contact">CONTACT</a>
+                </li>
             </ul>
             <span class="nav-item social-icons">
                 <span class="fa-stack">
@@ -111,184 +126,415 @@
             </span>
         </div>
     </nav> <!-- end of navbar -->
+    <!-- end of navbar -->
 
-
-    <!-- end of features -->
-
-
-
-    <style>
-        h2.faq {
-            color: white;
-            text-align: center;
-            margin-top: 50px;
-        }
-    </style>
-
-    <!-- Details 1 -->
-    <div id="histoire" class="basic-4">
+    <!-- Accordion -->
+    <div class="container-fluid bg-gray" id="accordion-style-1">
         <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <h2 class="faq pt-5 pb-5">LA F.A.Q.</h2>
-                    <section class="cd-faq js-cd-faq container max-width-md margin-top-lg margin-bottom-lg">
-
+            <div data-svg-id="162470084018985920a0c4cfb0f50d5e_svgshape.v1.Square.svg" data-svg-type="shape"
+                data-display-mode="stretch" data-strokewidth="2" data-viewbox="0 0 154.023 142.529"
+                data-preserve-viewbox="ignore" style="top:;bottom:;left:;right:;width:30px;height:30px;position:"
+                data-angle="45.821679825235265" data-angle-style-location="style" class="style-k0e2s4jh"
+                id="comp-k0e2s4gm">
+                <div id="comp-k0e2s4gmlink" class="style-k0e2s4jhlink">
+                    <div style="/*! stroke-width:2; *//*! fill-opacity:1; *//*! stroke:#00E7FF; *//*! stroke-opacity:1; *//*! fill:#00E7FF */"
+                        class="style-k0e2s4jh_comp-k0e2s4gm style-k0e2s4jh_non-scaling-stroke style-k0e2s4jhsvg"
+                        id="comp-k0e2s4gmsvg"><svg preserveAspectRatio="none" id="comp-k0e2s4gmsvgcontent"
+                            data-bbox="15.305 10.052 123 123" xmlns="http://www.w3.org/2000/svg"
+                            viewBox="10.912142857142847 5.659142857142847 131.7857142857143 131.7857142857143"
+                            role="img">
+                            <g>
+                                <path d="M138.305 10.052v123h-123v-123h123z"></path>
+                            </g>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+            <section>
+                <div class="row">
+                    <div class="col-12">
+                        <h1 class="faqfaq">LA F.A.Q</h1>
+                    </div>
+                    <div class="col-10 mx-auto">
                         <div class="accordion" id="accordionExample">
                             <div class="card">
                                 <div class="card-header" id="headingOne">
-                                    <h2 class="mb-0">
+                                    <h5 class="faq">
                                         <button class="btn btn-link btn-block text-left" type="button"
                                             data-toggle="collapse" data-target="#collapseOne" aria-expanded="true"
                                             aria-controls="collapseOne">
+                                            <i class="fa fa-angle-double-right mr-3"></i>
+
+
+
                                             Comment je peux rejoindre le groupe ?
                                         </button>
-                                    </h2>
+                                    </h5>
                                 </div>
 
-                                <div id="collapseOne" class="collapse show" aria-labelledby="headingOne"
+                                <div id="collapseOne" class="collapse show fade" aria-labelledby="headingOne"
                                     data-parent="#accordionExample">
                                     <div class="card-body">
-
                                         <p class="faq">
+
                                             - Pour t’inscrire, tu dois recontacter la personne qui t’a invité à
-                                            découvrir le site.
-                                            Dans le cas où aucune personne ne t’a parlé de ce projet, n’hésite pas à
-                                            envoyer un mail à Roskord:
+                                            découvrir le site. Dans le cas où aucune personne ne t’a parlé de ce projet,
+                                            n’hésite pas à envoyer un mail au support : pnvkvr@gmail.com
                                         </p>
                                     </div>
                                 </div>
                             </div>
                             <div class="card">
                                 <div class="card-header" id="headingTwo">
-                                    <h2 class="mb-0">
-                                        <button class="btn btn-link btn-block text-left collapsed" type="button"
+                                    <h5 class="faq">
+                                        <button class="btn btn-link collapsed btn-block text-left" type="button"
                                             data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false"
                                             aria-controls="collapseTwo">
-                                            Que proposes-tu comme travail ? </button>
-                                    </h2>
-                                </div>
-                                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo"
-                                    data-parent="#accordionExample">
-                                    <div class="card-body">
-                                        <p class="faq">
-                                            - Je ne propose pas de travail, j'apprends aux gens à générer des revenus à
-                                            coté de leurs études/travail sur les marchés financiers. Si tu souhaites
-                                            avoir plus d'informations, il y a une visioconférence en direct tous les
-                                            soirs à 20h.
+                                            <i class=""></i><i class="fa fa-angle-double-right mr-3"></i>
 
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="card">
-                                <div class="card-header" id="headingThree">
-                                    <h2 class="mb-0">
-                                        <button class="btn btn-link btn-block text-left collapsed" type="button"
-                                            data-toggle="collapse" data-target="#collapseThree" aria-expanded="false"
-                                            aria-controls="collapseThree">
-                                            Si c’était aussi facile, tout le monde le ferait </button>
-                                    </h2>
-                                </div>
-                                <div id="collapseThree" class="collapse" aria-labelledby="headingThree"
-                                    data-parent="#accordionExample">
-                                    <div class="card-body">
-                                        <p class="faq">
-
-                                            - Pour créer son business et commencer à générer de l’argent au bout d'un
-                                            an, je pense que tu seras très content. La seule chose c’est que les gens ne
-                                            sont pas patients, ce n’est pas facile, il faut juste être constant dans ton
-                                            évolution.
-                                            Tout le monde n’est pas entrepreneur pourtant ce sont eux qui détiennent le
-                                            plus de richesses avec les investisseurs : faire ce que la majorité ne
-                                            souhaite pas faire pour changer ses résultats.
-
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="accordion" id="accordionExample">
-                            <div class="card">
-                                <div class="card-header" id="headingOne">
-                                    <h2 class="mb-0">
-                                        <button class="btn btn-link btn-block text-left" type="button"
-                                            data-toggle="collapse" data-target="#collapseOne" aria-expanded="true"
-                                            aria-controls="collapseOne">
-                                            Comment je peux rejoindre le groupe ?
+                                            Que proposes-tu comme travail ?
                                         </button>
-                                    </h2>
+                                    </h5>
                                 </div>
-
-                                <div id="collapseOne" class="collapse show" aria-labelledby="headingOne"
-                                    data-parent="#accordionExample">
-                                    <div class="card-body">
-
-                                        <p class="faq">
-                                            - Pour t’inscrire, tu dois recontacter la personne qui t’a invité à
-                                            découvrir le site.
-                                            Dans le cas où aucune personne ne t’a parlé de ce projet, n’hésite pas à
-                                            envoyer un mail à Roskord:
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="card">
-                                <div class="card-header" id="headingTwo">
-                                    <h2 class="mb-0">
-                                        <button class="btn btn-link btn-block text-left collapsed" type="button"
-                                            data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false"
-                                            aria-controls="collapseTwo">
-                                            Que proposes-tu comme travail ? </button>
-                                    </h2>
-                                </div>
-                                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo"
+                                <div id="collapseTwo" class="collapse fade" aria-labelledby="headingTwo"
                                     data-parent="#accordionExample">
                                     <div class="card-body">
                                         <p class="faq">
+
+
                                             - Je ne propose pas de travail, j'apprends aux gens à générer des revenus à
                                             coté de leurs études/travail sur les marchés financiers. Si tu souhaites
                                             avoir plus d'informations, il y a une visioconférence en direct tous les
-                                            soirs à 20h.
-
-                                        </p>
+                                            soirs à 20h.</p>
                                     </div>
                                 </div>
                             </div>
                             <div class="card">
                                 <div class="card-header" id="headingThree">
-                                    <h2 class="mb-0">
-                                        <button class="btn btn-link btn-block text-left collapsed" type="button"
+                                    <h5 class="mb-0">
+                                        <button class="btn btn-link collapsed btn-block text-left" type="button"
                                             data-toggle="collapse" data-target="#collapseThree" aria-expanded="false"
                                             aria-controls="collapseThree">
-                                            Si c’était aussi facile, tout le monde le ferait </button>
-                                    </h2>
+                                            <i class=""></i><i class="fa fa-angle-double-right mr-3"></i> Si c’était
+                                            aussi facile, tout
+                                            le monde le ferait
+                                    </h5>
                                 </div>
-                                <div id="collapseThree" class="collapse" aria-labelledby="headingThree"
+                                <div id="collapseThree" class="collapse fade" aria-labelledby="headingThree"
+                                    data-parent="#accordionExample">
+                                    <div class="card-body">
+                                        <p class="faq">
+                                            - Lorsque tu crées ton business et que tu commences à générer de l’argent
+                                            qu’au bout d'un an, je pense que tu seras très content. La seule chose c’est
+                                            que les gens ne sont pas patients, ce n’est pas facile, il faut juste être
+                                            constant dans ton évolution. Tout le monde n’est pas entrepreneur pourtant
+                                            ce sont eux qui détiennent le plus de richesses avec les investisseurs :
+                                            faire ce que la majorité ne souhaite pas faire pour changer ses résultats.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-header" id="headingFour">
+                                    <h5 class="mb-0">
+                                        <button class="btn btn-link collapsed btn-block text-left" type="button"
+                                            data-toggle="collapse" data-target="#collapseFour" aria-expanded="false"
+                                            aria-controls="collapseFour">
+                                            <i class="fa fa-angle-double-right mr-3"></i>Je n’ai pas le temps pour ce
+                                            genre de business
+                                        </button>
+                                    </h5>
+                                </div>
+                                <div id="collapseFour" class="collapse fade" aria-labelledby="headingFour"
                                     data-parent="#accordionExample">
                                     <div class="card-body">
                                         <p class="faq">
 
-                                            - Pour créer son business et commencer à générer de l’argent au bout d'un
-                                            an, je pense que tu seras très content. La seule chose c’est que les gens ne
-                                            sont pas patients, ce n’est pas facile, il faut juste être constant dans ton
-                                            évolution.
-                                            Tout le monde n’est pas entrepreneur pourtant ce sont eux qui détiennent le
-                                            plus de richesses avec les investisseurs : faire ce que la majorité ne
-                                            souhaite pas faire pour changer ses résultats.
+                                            - Pourrais-tu juste regarder sur ton téléphone combien de temps passe tu à
+                                            la journée ?
+                                            - Tu as le temps pour aller sur Netflix et jouer à Fortnite mais pas pour
+                                            ton succès ? Combien de temps passes-tu sur ton téléphone ? X temps par
+                                            semaine. Tu as besoin de 30min-1h par jour et tu peux réellement faire de
+                                            grandes choses. 1 copier-coller dure 25 secondes. De plus, cette activité
+                                            vous permet d'optimiser votre temps de pause, le temps du déjeuner et vos
+                                            trajets.
+
 
                                         </p>
                                     </div>
                                 </div>
                             </div>
+                            <div class="card">
+                                <div class="card-header" id="headingFive">
+                                    <h5 class="mb-0">
+                                        <button class="btn btn-link collapsed btn-block text-left" type="button"
+                                            data-toggle="collapse" data-target="#collapseFive" aria-expanded="false"
+                                            aria-controls="collapseFive">
+                                            <i class="fa fa-angle-double-right mr-3"></i>Je ne comprends rien à ton
+                                            truc, c’est pas fait pour moi ça m’a l’air compliqué, je pense pas que je
+                                            réussirai
+                                        </button>
+                                    </h5>
+                                </div>
+                                <div id="collapseFive" class="collapse fade" aria-labelledby="headingFive"
+                                    data-parent="#accordionExample">
+                                    <div class="card-body">
+                                        <p class="faq">
+
+
+                                            - J’ai commencé avec les mêmes pensées que toi et les mêmes connaissances et
+                                            pourtant aujourd’hui j’ai acquis les compétences nécessaires. Nous sommes
+                                            +13 000 membres, un groupe d’entrepreneurs passé de 0 à plus de 13000
+                                            membres. Si je l’ai fait, tu peux le faire. Sans oublier les outils
+                                            simplifiant la pratique du trading, des lives formations, des vidéos, des
+                                            fichiers, un lien Dropbox.
+
+
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-header" id="headingSix">
+                                    <h5 class="mb-0">
+                                        <button class="btn btn-link collapsed btn-block text-left" type="button"
+                                            data-toggle="collapse" data-target="#collapseSix" aria-expanded="false"
+                                            aria-controls="collapseSix">
+                                            <i class="fa fa-angle-double-right mr-3"></i>Je n’ai pas d’expérience dans
+                                            ce domaine
+                                        </button>
+                                    </h5>
+                                </div>
+                                <div id="collapseSix" class="collapse fade" aria-labelledby="headingSix"
+                                    data-parent="#accordionExample">
+                                    <div class="card-body">
+                                        <p class="faq">
+
+                                            - Comme tu n’avais pas d’expérience en conduite avant ton permis, comme tu
+                                            n’avais pas d’expérience à l’école dans les nouvelles matières, comme la
+                                            première fois que tu as voulu marcher ou faire du vélo. Chaque fois que tu
+                                            commences une nouvelle chose, peu importe ce qu’elle est, tu n’as pas
+                                            d’expérience et pourtant tu y vas malgré la peur, pourquoi ? (répondre à ce
+                                            pourquoi)
+                                            - Nous sommes tous partis du même point, 95% des membres sont partis de
+                                            rien.
+
+
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="card">
+                                <div class="card-header" id="headingSeven">
+                                    <h5 class="mb-0">
+                                        <button class="btn btn-link collapsed btn-block text-left" type="button"
+                                            data-toggle="collapse" data-target="#collapseSeven" aria-expanded="false"
+                                            aria-controls="collapseSeven">
+                                            <i class="fa fa-angle-double-right mr-3"></i>
+                                            La formation dure combien de temps ?
+                                        </button>
+                                    </h5>
+                                </div>
+                                <div id="collapseSeven" class="collapse fade" aria-labelledby="headingSeven"
+                                    data-parent="#accordionExample">
+                                    <div class="card-body">
+                                        <p class="faq">
+                                            - Combien de temps as-tu à accorder à ce projet ?
+                                            - Chaque jour tu te formeras, mais tu peux commencer à gagner de l’argent
+                                            dès le premier/second mois en fonction de ton investissement
+                                            - Une fois que tu commences ta formation, tu en voudras toujours plus.
+                                            - Cela fait X temps que je me forme et je paye encore mon abonnement mais je
+                                            m’y plais : très bonne communauté, apprentissage constant, revenus générés.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-header" id="headingEight">
+                                    <h5 class="mb-0">
+                                        <button class="btn btn-link collapsed btn-block text-left" type="button"
+                                            data-toggle="collapse" data-target="#collapseEight" aria-expanded="false"
+                                            aria-controls="collapseEight">
+                                            <i class="fa fa-angle-double-right mr-3"></i>En combien de temps vais-je
+                                            rentabiliser l’abonnement ?
+                                        </button>
+                                    </h5>
+                                </div>
+                                <div id="collapseEight" class="collapse fade" aria-labelledby="headingEight"
+                                    data-parent="#accordionExample">
+                                    <div class="card-body">
+                                        <p class="faq">
+                                            - Tout dépend de toi, des actions que tu fournis.
+                                            - Ta vision de l’éducation est présente pour évoluer ?
+                                            - Chaque étudiant a son salaire ! Tu veux être l’étudiant excellent ou moyen
+                                            ?
+
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-header" id="headingNine">
+                                    <h5 class="mb-0">
+                                        <button class="btn btn-link collapsed btn-block text-left" type="button"
+                                            data-toggle="collapse" data-target="#collapseNine" aria-expanded="false"
+                                            aria-controls="collapseNine">
+                                       <i
+                                                class="fa fa-angle-double-right mr-3"></i>Je peux trader gratuitement,
+                                            pourquoi prendre ta formation ?
+                                        </button>
+                                    </h5>
+                                </div>
+                                <div id="collapseNine" class="collapse fade" aria-labelledby="headingNine"
+                                    data-parent="#accordionExample">
+                                    <div class="card-body">
+                                        <p class="faq">
+
+                                            - 90% des gens qui tradent sans formation perdent 90% de leur somme en 90
+                                            jours. Si tu veux faire partie des 10% rentables, il te faut une formation.
+                                            Dans tous les domaines, tu as une formation avant d'avoir les capacités pour
+                                            gérer celui-ci (usine, travail, cours de sciences, …) La plateforme de
+                                            trading, c'est juste un intermédiaire entre tes connaissances et les marchés
+                                            financiers. Si tu trades tout seul, tu vas juste perdre ton argent.
+
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-header" id="headingTen">
+                                    <h5 class="mb-0">
+                                        <button class="btn btn-link collapsed btn-block text-left" type="button"
+                                            data-toggle="collapse" data-target="#collapseTen" aria-expanded="false"
+                                            aria-controls="collapseTen">
+                                            <i class="fa fa-envelope main"></i><i
+                                                class="fa fa-angle-double-right mr-3"></i>Je n’ai pas le temps pour ce
+                                            genre de business
+                                        </button>
+                                    </h5>
+                                </div>
+                                <div id="collapseTEn" class="collapse fade" aria-labelledby="headingTen"
+                                    data-parent="#accordionExample">
+                                    <div class="card-body">
+                                        <p class="faq">
+
+                                            - Pourrais-tu juste regarder sur ton téléphone combien de temps passe tu à
+                                            la journée ?
+                                            - Tu as le temps pour aller sur Netflix et jouer à Fortnite mais pas pour
+                                            ton succès ? Combien de temps passes-tu sur ton téléphone ? X temps par
+                                            semaine. Tu as besoin de 30min-1h par jour et tu peux réellement faire de
+                                            grandes choses. 1 copier-coller dure 25 secondes. De plus, cette activité
+                                            vous permet d'optimiser votre temps de pause, le temps du déjeuner et vos
+                                            trajets.
+
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-header" id="headingEleven">
+                                    <h5 class="mb-0">
+                                        <button class="btn btn-link collapsed btn-block text-left" type="button"
+                                            data-toggle="collapse" data-target="#collapseEleven" aria-expanded="false"
+                                            aria-controls="collapseEleven">
+                                            <i class="fa fa-angle-double-right mr-3"></i>Le trading c’est du hasard, les
+                                            gens perdent de l’argent
+                                        </button>
+                                    </h5>
+                                </div>
+                                <div id="collapseEleven" class="collapse fade" aria-labelledby="headingEleven"
+                                    data-parent="#accordionExample">
+                                    <div class="card-body">
+                                        <p class="faq">
+
+
+                                            - Au contraire le trading est loin d’être du hasard, nous disposons
+                                            aujourd’hui de puissants indicateurs permettant de prédire les changements
+                                            du marché, il existe également des liaisons entre les mouvements des marchés
+                                            et le monde qui nous entoure, et cela nous savons également comment les
+                                            interpréter. Tout cela grâce à l’apprentissage donné par la société. Si des
+                                            gens en vivent, c’est que c’est loin d’être du hasard.</p>
+                                            <p class="faq">
+                                        
+                                        
+                                            - Oui, je suis d'accord avec toi, certaines personnes perdent de l'argent,
+                                            mais la question à te poser c'est pourquoi ? Car le trading, ce n'est pas du
+                                            hasard, il faut avoir certaines compétences, c'est la raison pour laquelle
+                                            il y a des écoles de trading en physique, contrairement au casino qui lui
+                                            est hasardeux. Saches que les banques tradent avec ton argent, comment cela
+                                            se fait-il qu'ils deviennent de plus en plus riche ? Car ils recrutent les
+                                            traders ayant les meilleures connaissances et donc des résultats dans le
+                                            domaine tout simplement.
+
+
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-header" id="headingTwelve">
+                                    <h5 class="mb-0">
+                                        <button class="btn btn-link collapsed btn-block text-left" type="button"
+                                            data-toggle="collapse" data-target="#collapseTwelve" aria-expanded="false"
+                                            aria-controls="collapseTwelve">
+                                         <i
+                                                class="fa fa-angle-double-right mr-3"></i>Je n’ai pas d’expérience dans
+                                            ce domaine
+                                        </button>
+                                    </h5>
+                                </div>
+                                <div id="collapseTwelve" class="collapse fade" aria-labelledby="headingTwelve"
+                                    data-parent="#accordionExample">
+                                    <div class="card-body">
+                                        <p class="faq">
+
+                                            - Comme tu n’avais pas d’expérience en conduite avant ton permis, comme tu
+                                            n’avais pas d’expérience à l’école dans les nouvelles matières, comme la
+                                            première fois que tu as voulu marcher ou faire du vélo. Chaque fois que tu
+                                            commences une nouvelle chose, peu importe ce qu’elle est, tu n’as pas
+                                            d’expérience et pourtant tu y vas malgré la peur, pourquoi ? (répondre à ce
+                                            pourquoi)
+                                            - Nous sommes tous partis du même point, 95% des membres sont partis de
+                                            rien.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-header" id="headingThirteen">
+                                    <h5 class="mb-0">
+                                        <button class="btn btn-link collapsed btn-block text-left" type="button"
+                                            data-toggle="collapse" data-target="#collapseThirteen" aria-expanded="false"
+                                            aria-controls="collapseThirteen">
+                                            <i class="fa fa-angle-double-right mr-3"></i>Est-ce légal ? Est-ce un «
+                                            Ponzi » ?
+                                        </button>
+                                    </h5>
+                                </div>
+                                <div id="collapseThirteen" class="collapse fade" aria-labelledby="headingThirteen"
+                                    data-parent="#accordionExample">
+                                    <div class="card-body">
+                                        <p class="faq">
+
+                                            - Une société ne serait pas débitée sur de la TVA sur les packs si elle est
+                                            illégale. Est-ce que la drogue a une TVA ? Non. Est-ce que IM en a ? Oui,
+                                            l’état cautionne donc son existence.
+                                            - La société est maintenant présente en France depuis fin décembre 2019.
+                                            - Elle propose un service, à partir de là, faut revoir ce qu’on « appelle
+                                            Ponzi » vu que c’est uniquement un jeu d’argent.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                    </section> <!-- cd-faq -->
-                </div> <!-- end of row -->
-            </div> <!-- end of container -->
-        </div> <!-- end of basic-2 -->
-        <!-- end of details 1 -->
-
-
+                    </div>
+                </div>
+            </section>
+        </div>
     </div>
+    <!-- .// Accordion -->
+    <!-- Features -->
 
 
 
@@ -334,12 +580,17 @@
                     <div class="footer-col last">
                         <h4>Social Media</h4>
                         <span class="fa-stack">
-                            <a href="https://www.facebook.com/rohat.yildirim.58">
+                            <a href="#your-link">
                                 <i class="fas fa-circle fa-stack-2x"></i>
                                 <i class="fab fa-facebook-f fa-stack-1x"></i>
                             </a>
                         </span>
-
+                        <span class="fa-stack">
+                            <a href="#your-link">
+                                <i class="fas fa-circle fa-stack-2x"></i>
+                                <i class="fab fa-twitter fa-stack-1x"></i>
+                            </a>
+                        </span>
 
                         <span class="fa-stack">
                             <a href="#your-link">
@@ -353,21 +604,21 @@
             </div> <!-- end of row -->
         </div> <!-- end of container -->
     </div> <!-- end of footer -->
+    <!-- end of footer -->
 
     <!-- Copyright -->
     <div class="copyright">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <p class="p-small">Copyright © Leno - Mobile App Landing Page Template by <a
-                            href="http://www.inovatik.com">Inovatik</a></p>
+                    <p class="p-small">Copyright ©GlobalSuccess - Template by CreativeWeb <a
+                            href="https://creativewebstudio.netlify.com">Creativeweb</a></p>
                 </div> <!-- end of col -->
             </div> <!-- enf of row -->
         </div> <!-- end of container -->
     </div> <!-- end of copyright -->
     <!-- end of copyright -->
-
-
+    <script src="./js/aos.js"></script>
     <!-- Scripts -->
     <script src="js/jquery.min.js"></script> <!-- jQuery for Bootstrap's JavaScript plugins -->
     <script src="js/popper.min.js"></script> <!-- Popper tooltip library for Bootstrap -->
