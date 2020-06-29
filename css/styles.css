@@ -70,6 +70,10 @@ background-color: navy;
 h3.section5{
 color: black;
 }
+.section5{
+	margin-left: 15px;
+	margin-right: 15px;
+}
 p.section5{
 color: black;
 }
@@ -1210,6 +1214,8 @@ h4.card-title{
 
 .basic-3 .btn-solid-reg {
 	margin-top: 0.5rem;
+
+margin-bottom: 5px;
 }
 
 
