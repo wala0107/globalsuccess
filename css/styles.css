@@ -33,7 +33,7 @@ h2.outil{
 	color: white;
 	text-align: center;
 	padding-top: 50px;
-	padding-bottom: 20px;
+	
 }
 h2.histoire{
 	font-size: 40px;
@@ -63,8 +63,15 @@ img.img-telegram{
 	display: flex;
 	justify-content: center;
 }
+
 .section1{
 background-color: navy;
+}
+h3.section5{
+color: black;
+}
+p.section5{
+color: black;
 }
 img.image-map{
 width: 100%;
@@ -809,9 +816,15 @@ h2.faq{
 }
 .header {
 	background: linear-gradient(to bottom right, rgba(72, 72, 212, 0), rgba(19, 18, 18, 0)), url('https://cdn.wallpapersafari.com/27/71/J2EGpL.jpg') center fixed no-repeat;
-background-position: fixed;
+
 
 	background-size: cover;
+}
+
+
+#map{
+	background: url('https://cdn.wallpapersafari.com/27/71/J2EGpL.jpg') center fixed no-repeat;
+
 }
 
 .header .header-content {
@@ -1184,7 +1197,6 @@ h4.card-title{
 /*************************/
 .basic-3 {
 
-	padding-bottom: 7.25rem;
 
 }
 
@@ -1356,12 +1368,13 @@ h2.histoire{
 	color: black;
 	font-size: 20px;
 	color:  #34073a;
-	padding-top: 105px;
-	padding-bottom: 105px;
+	padding-top: 135px;
+
 }
 h2.header{
-	font-weight:bold;
+	font-weight:bolder;
 	text-align: center;
+
 	font-size: 38px;
 }
 span.date{
